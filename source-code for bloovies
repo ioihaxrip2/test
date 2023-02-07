@@ -98,3 +98,47 @@ iframe {
   h1 span {
       text-decoration: none;
       color: #2c7ffc;
+      text-transform: uppercase;
+      font-weight: 800;
+      font-size: 2.8vw;
+  }
+  .link {
+    font-size: 1vw;
+  }
+  a {
+      color: rgb(18, 128, 231);
+  }
+  p a:nth-of-type(2) {
+      color: #f7f446;
+  }
+  span {
+      color: rgb(255, 142, 36);
+      text-decoration: underline;
+      cursor: pointer;
+  }
+  span.two {
+      color: #51e94c;
+      text-decoration: none;
+      cursor: auto;
+  }
+  span.three {
+      text-decoration: none;
+      color: rgb(255, 55, 55);
+      cursor:auto;
+  }
+  #player {
+      width: 100%;
+      height: 100vh;
+      display: none;
+  }
+  
+</style>
+
+<script>
+  var code = document.querySelector('.code-block').innerHTML;
+      code = code.replace(/(\b(var|console)\b)/g, "<span class='keyword'>$1</span>");
+      code = code.replace(/(\".*\")/g, "<span class='string'>$1</span>");
+      code = code.replace(/(\b\d+\b)/g, "<span class='number'>$1</span>");
+      code = code.replace(/(\/\/.*)/g, "<span class='comment'>$1</span>");
+      document.document.querySelector('.code-block').innerHTML = code;
+</script>
